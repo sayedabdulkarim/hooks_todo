@@ -1,0 +1,28 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.TodoList{
+  /* border: 1px solid red; */
+}
+.TodoList > ul {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: 0 auto;
+  list-style: none;
+}
+.TodoList > ul li{
+  border-bottom: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.TodoList > ul li button{
+  padding: 5px;
+  cursor: pointer;
+}
+
+
